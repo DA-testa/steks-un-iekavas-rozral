@@ -27,16 +27,14 @@ def find_mismatch(text):
 
 def main():
     type = input()
-    if "I" in type: #input
-        text = input()
-        mismatch = find_mismatch(text)
-        print(mismatch)
-    elif "F" in type: #file
-        text = input()
-        mismatch = find_mismatch(text)
-        print(mismatch)
+    if "F" in type:
+        print("F function not defined in task")
+    elif "I" in type:
+            text = input()
+            mismatch = find_mismatch(text)
+            print(mismatch)
     else:
-        print("Error")
+        print("Invalid input type")
 
 if __name__ == "__main__":
     main()
