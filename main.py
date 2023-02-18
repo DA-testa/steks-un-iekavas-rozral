@@ -27,13 +27,13 @@ def find_mismatch(text):
 
 def main():
     type = input()
-    if type == "I": #input
-        text = input()
-        mismatch = find_mismatch(text)
+    if type.startswith("I"): #input
+        #text = input()
+        mismatch = find_mismatch(type)
         print(mismatch)
-    elif type == "F": #file
-        text = input()
-        mismatch = find_mismatch(text)
+    elif type.startswith("F"): #file
+        #text = input()
+        mismatch = find_mismatch(type)
         print(mismatch)
     else:
         print("Error") 
