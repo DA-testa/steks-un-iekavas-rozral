@@ -27,11 +27,11 @@ def find_mismatch(text):
 
 def main():
     type = input()
-    if type == "I": #input
+    if type == "I\r\n": #input
         text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
-    elif type == "F": #file
+    elif type == "F\r\n": #file
         text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
