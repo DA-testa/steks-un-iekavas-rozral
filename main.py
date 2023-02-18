@@ -30,9 +30,9 @@ def main():
     if "F" in type:
         print("F function not defined in task")
     elif "I" in type:
-            text = input()
-            mismatch = find_mismatch(text)
-            print(mismatch)
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
     else:
         print("Invalid input type")
 
