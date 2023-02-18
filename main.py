@@ -29,10 +29,14 @@ def main():
     type = input()
     if type == "I": #input
         text = input()
-    else: #file
+        mismatch = find_mismatch(text)
+        print(mismatch)
+    elif type == "F": #file
         text = input()
-    mismatch = find_mismatch(text)
-    print(mismatch)
+        mismatch = find_mismatch(text)
+        print(mismatch)
+    else:
+        print("Error")
 
 if __name__ == "__main__":
     main()
