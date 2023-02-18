@@ -28,7 +28,7 @@ def find_mismatch(text):
 def main():
     type = input()
     if "F" in type:
-        print("F function not defined in task")
+        print("Files input option is not described in the task, therefore not implemented")
     elif "I" in type:
         text = input()
         mismatch = find_mismatch(text)
