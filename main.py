@@ -27,16 +27,19 @@ def find_mismatch(text):
 
 def main():
     type = input()
-    if type == "I": #input
-        text = input()
-        mismatch = find_mismatch(text)
-        print(mismatch)
-    elif type == "F": #file
-            text = input()
-            mismatch = find_mismatch(text)
-            print(mismatch)
-    else:
-        print("Error")
+    text = input()
+    mismatch = find_mismatch(text)
+    print(mismatch)
+    #if type == "I": #input
+    #    text = input()
+    #    mismatch = find_mismatch(text)
+    #    print(mismatch)
+    #elif type == "F": #file
+    #    text = input()
+    #    mismatch = find_mismatch(text)
+    #    print(mismatch)
+    #else:
+    #    print("Error")
 
 if __name__ == "__main__":
     main()
