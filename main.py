@@ -36,7 +36,7 @@ def main():
         mismatch = find_mismatch(text)
         print(mismatch)
     else:
-        print("Error")
+        print(type)
 
 if __name__ == "__main__":
     main()
