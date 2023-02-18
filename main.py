@@ -32,11 +32,11 @@ def main():
         mismatch = find_mismatch(text)
         print(mismatch)
     elif type == "F": #file
-        text = input()
-        mismatch = find_mismatch(text)
-        print(mismatch)
+            text = input()
+            mismatch = find_mismatch(text)
+            print(mismatch)
     else:
-        print(type)
+        print("Error")
 
 if __name__ == "__main__":
     main()
